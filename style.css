@@ -1,20 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 
 :root{
-    --fonte-principal: font-family: "Prompt", sans-serif;
+    --fonte-principal: "Shrikhand", serif;
+    --fonte-secundario: "Exo 2", sans-serif;
     --Cinza-Cinza: #cad2c5ff;
     --Azul-Cambridge: #84a98cff;
     --Verde-de-Hooker: #52796fff;
-    --Cinza-Ardósia-Escuro: #354f52ff;
+    --Cinza-Ardósia-Escuro: rgb(38, 101, 108);
     --Carvão: #2f3e46ff;
 }
 
 body{
     font-family: var(--fonte-principal);
     background-color: var(--Cinza-Ardósia-Escuro);
+}
+
+h1,h3{
+    font-family: var();
 }
