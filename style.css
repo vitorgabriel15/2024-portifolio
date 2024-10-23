@@ -4,21 +4,55 @@
     padding: 0;
 }
 
-:root{
+:root {
     --fonte-principal: "Shrikhand", serif;
     --fonte-secundario: "Exo 2", sans-serif;
     --Cinza-Cinza: #cad2c5ff;
     --Azul-Cambridge: #84a98cff;
     --Verde-de-Hooker: #52796fff;
-    --Cinza-Ardósia-Escuro: rgb(38, 101, 108);
-    --Carvão: #2f3e46ff;
+    --Cinza-Ardósia-Escuro: rgb(3, 85, 95);
+    --Carvão: rgb(16, 84, 120);
+    --branco: #ffffff; /* Added white color */
+    --mamao: #f0b27a; /* Example color for border */
+    --footer-link-color: #84a98c; /* Color for footer links */
+    --preto: #000000;
 }
 
-body{
+body {
     font-family: var(--fonte-principal);
     background-color: var(--Cinza-Ardósia-Escuro);
+    color: var(--branco); /* Set default text color to white for contrast */
 }
 
-h1,h3{
-    font-family: var();
+.img.thumbnail {
+    border: 2px solid var(--mamao); /* Added border color */
+    border-radius: 8px; /* Soft rounded corners for thumbnails */
+}
+
+h1, h3 {
+    font-family: var(--fonte-principal);
+    color: var(--branco); /* Ensure headers are visible */
+}
+
+.card {
+    background-color: var(--Azul-Cambridge); /* Changed to a softer color */
+    color: var(--branco); /* Keep text color for readability */
+    border-radius: 10px; /* Rounded corners for cards */
+    padding: 20px; /* Added padding for better spacing */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+}
+
+.footer-link {
+    text-decoration: none; /* Changed from 'nome' to 'none' */
+    font-size: 1.2em;
+    color: var(--footer-link-color); /* Changed to a defined color */
+}
+
+.footer-link:hover {
+    text-decoration: underline; /* Added hover effect for links */
+    color: var(--Cinza-Cinza); /* Change color on hover for interactivity */
+}
+
+.modal-body {
+    color: var(--preto);
 }
