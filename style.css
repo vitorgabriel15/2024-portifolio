@@ -42,10 +42,10 @@ h1, h3 {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
 }
 
-.footer-link {
+a {
     text-decoration: none; /* Changed from 'nome' to 'none' */
     font-size: 1.2em;
-    color: var(--footer-link-color); /* Changed to a defined color */
+    color: var(--branco); /* Changed to a defined color */
 }
 
 .footer-link:hover {
